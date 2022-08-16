@@ -1,0 +1,11 @@
+COLORS:
+    AQUA: #12e7db
+    DARK BLUE: #0758cd
+    PALE PURPLE: #6665fe
+FONTS PATH:
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Black.otf
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Bold.otf
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Light.otf
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Medium.otf
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Regular.otf
+https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Ultra.otf

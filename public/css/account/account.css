@@ -1,0 +1,133 @@
+.wrapper {
+    max-width: 1460px;
+    height: auto;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+/* Top left grids */
+.topleft {
+    width: 55%;
+    float: left;
+    margin-right: 5%;
+}
+.topgrid {
+    display: grid;
+}
+#hi{
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    color: blue;
+    margin: auto;
+}
+#loan{
+    grid-row: 2;
+    text-align: left;
+    font-size: x-large;
+    font-weight: normal;
+}
+#credit{
+    margin-top: 6%;
+    grid-row: 2;
+    text-align: right;
+    font-size: x-large;
+}
+.bottomgrid {
+    display: grid;
+    outline: 2px solid gray;
+    float: left;
+    width: 95%;
+    border-radius: 5%;
+    padding: 5%
+}
+.table {
+    grid-row: 1
+}
+#payment {
+    grid-row: 2;
+    text-align: center;
+    background-color: #6665fe;
+    width: 35%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 25% ;
+    color: white;
+}
+#autopay {
+    grid-row: 3
+}
+#totals {
+    margin: auto 0;
+    clear: both;
+}
+ /*top right grids */
+.topright {
+    float: left;
+    text-align: right;
+    outline: 2px solid gray;
+}
+#shopnow {
+    text-align: center; 
+    margin-bottom: 5%;
+    background-color: #6665fe;
+    border-radius: 10%;
+    padding: 3%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+/*bottom left */
+.bottomleft {
+    width: 55%;
+}
+.alignright {
+    text-align: right;
+}
+body {
+    font-family: "neo-sans";
+}
+.table {
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 3%;
+}
+ #table {
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+ }
+
+ #table2 {
+    border-bottom: 2px solid gray;
+ }
+
+ /*bottom*/
+ #transactions {
+    width: 4.375em;
+    height: 7.5em;
+    margin: -2em -1.25em;
+ }
+ #viewtransactions {
+    margin-bottom: 10%;
+    font-size: xx-large;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+ }
+
+ .shrink {
+    width: 5%;
+ }
+
+
+
+ @font-face {
+    font-family: NeoSans;
+    src: url(https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Black.otf)
+}
+
+body {
+    font-family: NeoSans;
+ }

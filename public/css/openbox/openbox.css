@@ -116,7 +116,7 @@ body {
     display: grid;
     gap:20px;
     width: 15%;
-    float:left;
+    float: left;
     outline: 2px solid rgb(213, 213, 213);
     border-radius: 5%;
     margin: .9375em;
@@ -311,4 +311,15 @@ li {
 /*border stuff*/
 #margin {
     margin: 6.25em;
+}
+
+.wrapper {
+    max-width: 2000px;
+    margin: 0 auto;
+    background: black;
+    text-align: center;
+}
+
+#centermain {
+    
 }
