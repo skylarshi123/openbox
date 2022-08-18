@@ -2,6 +2,7 @@
     max-width: 1460px;
     height: auto;
     margin: 0 auto;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
 table {
@@ -63,6 +64,11 @@ table {
     margin: auto 0;
     clear: both;
 }
+#big2 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #6665fe;
+}
  /*top right grids */
 .topright {
     float: left;
@@ -81,6 +87,17 @@ table {
     color: white;
 }
 /*bottom left */
+.summary {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 55%;
+    justify-content: flex-start;
+    float: left;
+}
+.shrink2 {
+    width: 15%;
+ }
 .bottomleft {
     width: 55%;
 }
@@ -90,20 +107,37 @@ table {
 body {
     font-family: "neo-sans";
 }
-.table {
+#table1 {
     border: 1px solid gray;
     border-radius: 5%;
     padding: 3%;
+}
+#big {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #6665fe;
 }
  #table {
     border-bottom: 2px solid gray;
     border-top: 2px solid gray;
  }
-
+ #accountsummary {
+    color: blue;
+ }
+.bolder {
+    font-weight: bold;
+    font-size: x-large;
+}
  #table2 {
     border-bottom: 2px solid gray;
  }
-
+#bigtable {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #6665fe;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+}
  /*bottom*/
  #transactions {
     width: 4.375em;

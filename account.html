@@ -5,17 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/account/account.css">
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Black.otf" as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Bold.otf
-    " as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Light.otf
-    " as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Medium.otf
-    " as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Regular.otf
-    " as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://entrilending.com/assets/fonts/neo-sans/Neo-Sans-W1G-Ultra.otf" as="font" type="font/otf" crossorigin>
 </head>
 <body>
     <div class="wrapper">
@@ -32,8 +26,8 @@
                         <td class="alignright">AMOUNT DUE</td>
                     </tr>
                     <tr>
-                        <td>$4,199.45</td>
-                        <td class="alignright">$105.00</td>
+                        <td id="big2">$4,199.45</td>
+                        <td id='big2' class="alignright">$105.00</td>
                     </tr>
                     <tr>
                         <td>$1000 Available</td>
@@ -45,39 +39,30 @@
             <p id="totals">*Totals may not reflect the most recent transactions</p>
             <hr>
         </div>
-        <!--
-        <div class="topright">
-            <img src="./images/ad1-ps5.jpg" alt="PS5">
-            <h1>Play Station 5 Bundles from $56/mo</h1>
-            <h2 id="shopnow">Shop Now</h2>
-        </div>
-        -->
-        <div>
-            <p>text here here here</p>
-        </div>
+     
         <div class="bottomleft">
             <div class="summary">
-                <h1>Account Summary</h1>
-                <img>
+                <img class='shrink2'src="./public/images/accountprj/1-account-summary.svg" alt="summary">
+                <h1 id="accountsummary">Account Summary</h1>
                 <img>
             </div>
-            <div class="table">
-                <table>
+            <div class="table1">
+                <table id="table1">
                     <tr>
-                        <td>Available Credit</td>
-                        <td class="alignright">$999.00</td>
+                        <td class="bolder">Available Credit</td>
+                        <td class="alignright"id='big'>$999.00</td>
                     </tr>
                     <tr>
-                        <td>Pending Charges</td>
-                        <td class="alignright">$0.00</td>
+                        <td class="bolder">Pending Charges</td>
+                        <td class="alignright" id="big">$0.00</td>
                     </tr>
                     <tr>
-                        <td id="table">Current Balance</td>
-                        <td id="table" class="alignright">$4,199.45</td>
+                        <td class='bolder' id="table">Current Balance</td>
+                        <td id="bigtable" class="alignright">$4,199.45</td>
                     </tr>
                     <tr>
-                        <td>AutoPay Setup</td>
-                        <td class="alignright">ON</td>
+                        <td class="bolder">AutoPay Setup</td>
+                        <td id = 'big' class="alignright">ON</td>
                     </tr>
                 </table>
             </div>
@@ -85,26 +70,33 @@
         <div class="bottom">
             <table>
                 <tr>
-                    <td id="table" class="shrink"><img id='transactions' src="./images/2-view-transactions.svg" alt='transactions'></td>
+                    <td id="table" class="shrink"><img id='transactions' src="./public/images/accountprj/2-view-transactions.svg" alt='transactions'></td>
                     <td id='viewtransactions'>View Transactions</td>
                     <td id='table'class='alignright'><img src="" alt="plus"></td>
                 </tr>
                 <tr>
-                    <td id="table" class="shrink"><img id='transactions' src="./images/2-view-transactions.svg" alt='transactions'></td>
-                    <td id='viewtransactions'>View Transactions</td>
+                    <td id="table" class="shrink"><img id='transactions' src="./public/images/accountprj/3-billing-statement.svg" alt='Billing Statement'></td>
+                    <td id='viewtransactions'>Billing Statement</td>
                     <td id='table'class='alignright'><img src="" alt="plus"></td>
                 </tr>
                 <tr>
-                    <td id="table" class="shrink"><img id='transactions' src="./images/2-view-transactions.svg" alt='transactions'></td>
-                    <td id='viewtransactions'>View Transactions</td>
+                    <td id="table" class="shrink"><img id='transactions' src="./public/images/accountprj/4-autopay-settings.svg" alt='AutoPay Settings'></td>
+                    <td id='viewtransactions'>AutoPay Settings</td>
                     <td id='table'class='alignright'><img src="" alt="plus"></td>
                 </tr>
                 <tr>
-                    <td id="table" class="shrink"><img id='transactions' src="./images/2-view-transactions.svg" alt='transactions'></td>
-                    <td id='viewtransactions'>View Transactions</td>
+                    <td id="table" class="shrink"><img id='transactions' src="./public/images/accountprj/5-more-options.svg" alt='More options'></td>
+                    <td id='viewtransactions'>More options</td>
                     <td id='table'class='alignright'><img src="" alt="plus"></td>
                 </tr>
             </table>
+        </div>
+
+
+           <div class="topright">
+            <img src="./public/images/accountprj/ad1-ps5.jpg" alt="PS5">
+            <h1>Play Station 5 Bundles from $56/mo</h1>
+            <h2 id="shopnow">Shop Now</h2>
         </div>
     </div>  
 </body>

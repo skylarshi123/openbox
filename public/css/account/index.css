@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.purplecolor {
+    color: #6665fe !important;
+}
+
+.col-2.minus::after {
+    content: "\e996"
+}
+
+.darkbluecolor {
+    color: #0758cd;
+}
+
+.purplecolorbutton {
+    color: white !important;
+    background-color: #6665fe !important;
+    border: 1px solid #6665fe !important;
+}
+
+.smallpic{
+    max-width: 45px;
+}
+
+.bolder {
+    font-weight: 650 !important;
+    color: rgb(105, 105, 105);
+}
+
+.height {
+    max-height: 600px;
+}
+
+.width {
+    max-width: 100%;
+}

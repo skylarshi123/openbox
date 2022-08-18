@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/account/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row m-2">
+            <div class="col-12 col-md-7 p-md-2 p-md-5">
+                <div class="text-center darkbluecolor"><h3>Hi, John Doe!</h3></div>
+                <div class="row m-2">
+                    <div class="col justify-content-start">LOAN OVERVIEW</div>
+                    <div class="col text-end purplecolor"><a href="#">See my Credit Limit</a></div>
+                </div>
+                <div class="column border rounded">
+                    <div class="row m-2">
+                        <div class="col justify-content-start">CURRENT BALANCE*</div>
+                        <div class="col justify-content-end text-end">AMOUNT DUE</div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="col justify-content-start purplecolor"><h1>$4,199.45</h1></div>
+                        <div class="col justify-content-end text-end purplecolor mt-0 mb-0"><h1>$105.00</h1></div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="text-start">$1000 Available</div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="text-center mb-3"><button type="button" class="btn purplecolorbutton">Make a payment</button></div>
+                    </div>
+                    <div class="row m-2">
+                        <div class="text-center mb-3 mt-3">AutoPay of $105.00 scheduled on 05/16/2022</div>
+                    </div>
+                </div> 
+                <div class="text-center mb-3 mt-3">*Totals may not reflect the most recent transactions.</div>
+                <hr>
+                <div class="row m-2">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div>
+                                    <h3 class="darkbluecolor"><img class='smallpic' src="./public/images/accountprj/1-account-summary.svg" alt="account summary">Account Summary</h3>
+                                </div>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="column border rounded">
+                    <div class="row m-2 mt-4">
+                        <div class="col text-start">Available Credit</div>
+                        <div class="col text-end purplecolor"><h3>$999.99</h3></div>
+                    </div>
+                    <div class="row me-2 ms-2 mt-2 mb-0">
+                        <div class="col text-start">Pending Charges</div>
+                        <div class="col text-end purplecolor"><h3>$0.00</h3></div>
+                    </div>
+                    <div class="row ms-2 me-2 mb-0 mt-0"><hr></div>
+                    <div class="row me-2 ms-2 align-content-center">
+                        <div class="col text-start">Current Balanace</div>
+                        <div class="col text-end purplecolor"><h3>$4,199.45</h3></div>
+                    </div>
+                    <div class="row ms-2 me-2 mb-0 mt-0"><hr></div>
+                    <div class="row me-2 ms-2 mb-4 mt-0">
+                        <div class="col text-start">AutoPay Setup</div>
+                        <div class="col text-end purplecolor"><h3>ON</h3></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 d-none d-md-block border rounded height width mt-5 p-0">
+                <img class='width img-fluid w-100'src="./public/images/accountprj/ad1-ps5.jpg" alt="PS5">
+                <div class="text-center"><h4 class="bolder mt-3 me-md-2">Play Station 5 Bundles from $56/mo</h4></div>
+                <div class="text-center mb-5 mt-4"><button type="button" class="btn purplecolorbutton">Shop Now</button></div>
+            </div>
+        </div>
+        <div class="row m-2">
+            <ul class="list-group pe-0 p-md-2 ps-md-5">
+                <li class="list-group-item border-start-0 border-end-0"><img class='smallpic' src="./public/images/accountprj/2-view-transactions.svg" alt="View Transactions">View Transactions</li>
+                <li class="list-group-item border-start-0 border-end-0"><img class='smallpic' src="./public/images/accountprj/3-billing-statement.svg" alt="Billing Statement"> Billing Statement</li>
+                <li class="list-group-item border-start-0 border-end-0"><img class='smallpic' src="./public/images/accountprj/4-autopay-settings.svg" alt="AutoPay Settings">AutoPay Settings</li>
+                <li class="list-group-item border-start-0 border-end-0"><img class='smallpic' src="./public/images/accountprj/5-more-options.svg" alt="more options">More Options</li>
+              </ul>
+        </div>
+        <div class="row m-2">
+            <div class="col d-block d-md-none border rounded p-0 m-2">
+                <img class='width' src="./public/images/accountprj/ad1-ps5.jpg" alt="PS5">
+                <div class="text-center"><h4 class="bolder mt-3">Play Station 5 Bundles from $56/mo</h4></div>
+                <div class="text-center mb-5 mt-4"><button type="button" class="btn purplecolorbutton">Shop Now</button></div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>   
+</body>
+</html>
