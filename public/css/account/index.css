@@ -11,7 +11,11 @@ body {
 }
 
 .darkbluecolor {
-    color: #0758cd;
+    color: #0758cd !important;
+}
+
+.darkbluecolorbackground {
+    background-image: linear-gradient(to right, #0758cd , #50b6ce);
 }
 
 .purplecolorbutton {
@@ -22,6 +26,10 @@ body {
 
 .smallpic{
     max-width: 45px;
+}
+
+.smallpic2{
+    min-width: 200px !important;
 }
 
 .bolder {
@@ -35,4 +43,12 @@ body {
 
 .width {
     max-width: 100%;
+}
+
+.horizontal {
+    float: left;
+}
+
+.hamburger {
+    list-style: white !important;
 }
