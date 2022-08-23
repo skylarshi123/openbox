@@ -1,21 +1,16 @@
-var text = [
+var myCarousel = document.querySelector('#carouselExampleIndicators')
 
-    "Play Station 5 Bundles from $56/mo",
 
-    "JBL True Wireless from $99.95",
 
-    "Light. Bright. Full of might. From $42/mo"
+myCarousel.addEventListener('slide.bs.carousel', event => {
+    console.log(event);
+    document.querySelector("#changeText").innerHTML = event.relatedTarget.getAttribute("data-slide-text");
+})
 
-];
+var Carousel = document.querySelector('#carouselExampleIndicators2')
 
-var item1 = document.getElementById("carousel-item-1");
-var item2 = document.getElementById("carousel-item-2");
-var item3 = document.getElementById("carousel-item-3");
 
-if (item1 === document.activeElement){
-    console.log(text[0])
-} else if (item2 === document.activeElement) {
-    console.log(text[1])
-} else {
-    console.log(text[2])
-}
+Carousel.addEventListener('slide.bs.carousel', event => {
+    console.log(event);
+    document.querySelector("#changeText2").innerHTML = event.relatedTarget.getAttribute("data-slide-text");
+})

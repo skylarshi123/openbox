@@ -77,3 +77,6 @@ body {
 .large {
     padding: 1.5em !important;
 }
+.joined {
+    margin-bottom: -.5rem !important;
+  }
